@@ -1,0 +1,10 @@
+{
+  "name": "Background Notifier Sample",
+  "version": "0.1",
+  "description": "background page watch and notify update",
+  "background_page": "background.html",
+  "permissions": [
+    "notifications",
+    "http://mitc.xrea.jp/diary/"
+  ]
+}
