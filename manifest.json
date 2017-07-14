@@ -1,11 +1,11 @@
 {
-  "description": "backgroundでページを監視して変更を通知するよ",
+  "name": "Background Notifier Sample",
   "manifest_version": 2,
-  "name": "Background Notifier",
   "version": "0.1",
+  "description": "background page watch and notify update",
+  "background": {"page": "background.html"},
   "permissions": [
-  "notifications",
-    "*://*/*"
-  ],
-  "background": {"page": "background.html"}
+    "notifications",
+    "http://mitc.xrea.jp/diary/"
+  ]
 }
